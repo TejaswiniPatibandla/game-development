@@ -5,7 +5,9 @@ def solve_sudoku(board):
     :param board: A list of lists representing the Sudoku board
     :return: True if the board is solvable, False otherwise
     """
-    # Find the first empty cell (represented by 0)
+    
+    
+    # Find the the  first empty cell (represented by 0)
     row, col = find_empty_cell(board)
 
     # If there are no empty cells, the board is solved
